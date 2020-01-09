@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Llobet Holidays</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <script src="https://kit.fontawesome.com/c7b477f16b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="js/gallery.js"></script>
+</head>
+
+<body>
+    <header id="home" data-spy="scroll" data-target=".fixed-top">
+        <!--MENU-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="img/LLH logo.jpg" alt="logo" height="25%" width="25%">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Calella
+                          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#calella">Sobre Calella</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#calella-apartment">Apartamento Calella</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Canet
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#canet">Sobre Canet</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#canet-apartment">Apartamento Canet</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown idioma">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Idioma
+                        </a>
+                        <div class="dropdown-menu idioma" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">ESP</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="index_english.html">ENG</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Slider carousel-->
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <picture>
+                        <source srcset="img/slider1_2000.jpg" media="(min-width: 1400px)">
+                        <source srcset="img/slider1_1400.jpg" media="(min-width: 769px)">
+                        <source srcset="img/slider1_800.jpg" media="(min-width: 577px)">
+                        <img srcset="img/slider1_600.jpg" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+                </div>
+                <!-- /.carousel-item -->
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="img/slider2_2000.jpg" media="(min-width: 1400px)">
+                        <source srcset="img/slider2_1400.jpg" media="(min-width: 769px)">
+                        <source srcset="img/slider2_800.jpg" media="(min-width: 577px)">
+                        <img srcset="img/slider2_600.jpg" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+                </div>
+                <!-- /.carousel-item -->
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="img/slider3_2000.jpg" media="(min-width: 1400px)">
+                        <source srcset="img/slider3_1400.jpg" media="(min-width: 769px)">
+                        <source srcset="img/slider3_800.jpg" media="(min-width: 577px)">
+                        <img srcset="img/slider3_600.jpg" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+                </div>
+                <!-- /.carousel-item -->
+            </div>
+            <!-- /.carousel-inner -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+        <!-- /.carousel -->
+
+    </header>
+    <!--Sobre nosotros-->
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 padding0">
+                    <div class="about-content">
+                        
+                        <h3>Llobet Holidays <br></h3>
+                        <h5 class="subtitle">Vacaciones con aroma mediterráneo</h5>
+                        <p align="justify">Nos encanta conocer a nuestros huéspedes para poder brindar les una experiencia única. Cuidamos los detalles en nuestros apartamentos. Nos gusta conocer distintos lugares y culturas. Comunicarnos con la gente autóctona, aprender de sus experiencias y lugares donde visitan con entusiasmo. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 padding0">
+                    <img class="img-fluid" id="special1" src="img/Canet/Canet_Terraza_2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Calella-->
+    <section id="calella" class="calella-info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 padding0 img-calella">
+                    <img class="img-fluid" id="special" src="img/Calella/calella far.jpg" alt="">
+                </div>
+                <div class="col-lg-6 padding0">
+                    <div class="banner">
+                        <h1 class="d-flex justify-content-center mt-3 mb-5">Calella</h1>
+                        <p align="justify">El apartamento se encuentra en el centro de Calella, municipio costero de la comarca del Maresme. La ciudad se encuentra a A 50 km de Barcelona y de Girona su situación geográfica, así como las vías de comunicación se convierten, un factor clave para la realización de toda clase de excursiones y actividades. Este hecho la convierte en un destino turístico ideal.<br> <br>Una oferta de cerca de tres kilómetros de longitud de playas y más de 180.000 m2 de arena dorada y limpia, aguas intensamente azules, zonas naturales como el Parque Dalmau, paseo de Manuel Puigvert, paseo de Garbí o Las Torretas, hacen de Calella una ciudad dinámica, moderna y acogedora que permite disfrutar al visitante de un destino con una singularidad propia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="calella-apartment" class="apartment">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 info-apartment">
+                        <h1 class="d-flex justify-content-center title">Apartamento Calella</h1>
+                        <p align="justify" class="d-flex justify-content-center">Apartamento con gran terraza frente al mar Mediterráneo, con unas hermosas vistas panorámicas de la costa. Se encuentra en Calella, pueblo marinero y punto de referencia en la comarca del Maresme. Es ideal para parejas y familias con hijos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_10.jpg" alt="Apartamento">
+                    </div>
+                    <div class="col-lg-3 col-6 d-flex justify-content-center">
+                        <ul class="services serv1">
+                            <li><span><i class="icon fas fa-home"></i> 2 Habitaciones</span></li>
+                            <li><span><i class="icon fas fa-bed"></i> 4 Camas</span></li>
+                            <li><span><i class="icon fas fa-user-friends"></i> 6 Huéspedes</span></li>
+                            <li><span><i class="icon fas fa-shower"></i> 1 Baño</span></li>
+                            <li><span><i class="icon fas fa-utensils"></i> Utensilios de cocina</span></li>
+                            <li><span><i class="icon fas fa-thermometer-empty"></i> Aire Acondicionado</span></li>
+                            <li><span><i class="icon fas fa-toilet-paper"></i> Elementos básicos</span></li>
+                            <li><span><i class="icon fas fa-tint"></i> Agua caliente</span></li>
+                            <li><span><i class="icon fas fa-thermometer-full"></i> Calefacción</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-6 d-flex justify-content-center">
+                        <ul class="services serv2">
+                            <li><span><i class="icon fas fa-tv"></i> TV</span></li>
+                            <li><span><i class="icon fas fa-wifi"></i> Wi-Fi</span></li>
+                            <li><span><i class="icon fas fa-parking"></i> Parking</span></li>
+                            <li><span><i class="icon fas fa-tshirt"></i> Lavadora</span></li>
+                            <li><span><i class="icon far fa-snowflake"></i> Frigorífico</span></li>
+                            <li><span><i class="icon fas fa-mitten"></i> Horno y microondas</span></li>
+                            <li><span><i class="icon fas fa-coffee"></i> Cafetera</span></li>
+                            <li><span><i class="icon fas fa-arrows-alt-v"></i> Ascensor</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 title">
+                        <h3 id="more" class="d-flex justify-content-center">Más imágenes</h3>
+                    </div>
+                </div>
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div id="filter" class="col-md-12 d-flex justify-content-center mb-5">
+
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="5">General</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Habitaciones</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Sala de estar</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="3">Baño</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="4">Terraza</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">Ver todas</button>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="gallery" id="gallery">
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_5.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_1.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_6.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_9.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_11.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_9.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 1 5">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_2.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                       <!-- Grid column -->
+                       <div class="mb-3 pics animation all 1 5">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_3.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_4.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                      <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_5.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_7.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 1 5">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_8.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_10.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Calella/Calella_bedroom_11.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                     <!-- Grid column -->
+                     <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_1.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+                    
+                     <!-- Grid column -->
+                     <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_2.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->   
+                
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_3.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+                
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_4.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2 5">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_6.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_7.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_8.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_10.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_12.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_13.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_14.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+                
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_15.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_16.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_17.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_18.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_19.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Calella/Calella_livingroom_20.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+                
+                   <!-- Grid column -->
+                   <div class="mb-3 pics animation all 2">
+                    <img class="img-fluid" src="img/Calella/Calella_livingroom_21.jpg" alt="Card image cap">
+                </div>
+                <!-- Grid column -->
+
+                   <!-- Grid column -->
+                   <div class="mb-3 pics animation all 2 5">
+                    <img class="img-fluid" src="img/Calella/Calella_livingroom_22.jpg" alt="Card image cap">
+                </div>
+                <!-- Grid column -->
+
+                   <!-- Grid column -->
+                   <div class="mb-3 pics animation all 2">
+                    <img class="img-fluid" src="img/Calella/Calella_livingroom_23.jpg" alt="Card image cap">
+                </div>
+                <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="mb-3 pics animation all 2">
+                    <img class="img-fluid" src="img/Calella/Calella_livingroom_24.jpg" alt="Card image cap">
+                </div>
+                <!-- Grid column -->  
+
+                <!-- Grid column -->
+                  <div class="mb-3 pics animation all 2">
+                    <img class="img-fluid" src="img/Calella/Calella_livingroom_25.jpg" alt="Card image cap">
+                </div>
+                <!-- Grid column -->  
+            
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 3">
+                <img class="img-fluid" src="img/Calella/Calella_wc_1.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 3">
+                <img class="img-fluid" src="img/Calella/Calella_wc_2.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 3">
+                <img class="img-fluid" src="img/Calella/Calella_wc_3.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 3">
+                <img class="img-fluid" src="img/Calella/Calella_wc_4.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+            
+             <!-- Grid column -->
+             <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_1.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+           
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4 5">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_2.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_3.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_4.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4 5">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_5.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_6.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_7.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_8.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_9.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_10.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_11.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_12.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_13.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_14.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_15.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_16.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4 5">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_17.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_18.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_19.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_20.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_21.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4 5">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_22.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_23.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_24.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_25.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_26.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_27.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_28.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_29.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_30.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_31.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_32.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+               <!-- Grid column -->
+               <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_33.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->  
+
+             <!-- Grid column -->
+             <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_34.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column --> 
+
+             <!-- Grid column -->
+             <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_35.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column --> 
+
+             <!-- Grid column -->
+             <div class="mb-3 pics animation all 4">
+                <img class="img-fluid" src="img/Calella/Calella_terraza_36.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column --> 
+
+
+                
+                
+                    
+
+
+                </div>
+                <!-- Grid row -->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-center title">
+                            <h3>Más información</h3>
+                        </div>
+                        <!-- <div class="d-flex justify-content-center"> -->
+                            <p class="text"> </p>
+                                <p class="boldtext">ASPECTOS DESTACABLES</p>
+                                
+                                <p>- Llegada: 16:00 a 20:00</p>
+                                <p>- Salida: 10:00</p>
+                                <p>- Llegada autónoma</p>
+                                <p>- Con caja de seguridad para llaves</p>
+                                   <br>
+                                <p class="boldtext">NORMAS GENERALES</p>
+                                <p>- No se admiten mascotas</p>
+                                <p>- No se admiten fiestas o eventos</p>
+                                <p>- El apartamento tiene una terraza fantástica, ideal para fumadores. Pido que por favor no fumen dentro del apartamento por respeto a los futuros huéspedes no fumadores.</p>
+                                <p>- No grupos de jóvenes.</p>
+                                <p>- Terraza: Para respetar el descanso de los vecinos, les pedimos que tengan las conversaciones con volumen moderado durante el horario de 22h a 8h.</p>
+                                <br>
+                                <p class="boldtext">OTRAS COSAS A TENER EN CUENTA</p>
+                                <p>- Costos obligatorios pagados en el sitio:
+                                    Tasa turística: 0,99€ por persona y día (En efectivo Moneda €)</p>
+                                <p>- Fianza: si se producen daños en el alojamiento, se te podría cobrar hasta un máximo de 200€</p>
+                                <p>- Hay dispositivos de vigilancia o grabación en la propiedad </p>
+                                <P>- Hay una cámara de vigilancia con grabación permanente en la entrada general del edificio.</p>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--Canet-->
+    <section id="canet">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 padding0">
+                    <img class="img-fluid" id="special" src="img/Canet/platja canet.jpg" alt="">
+                </div>
+                <div class="col-lg-6 padding0">
+                    <div class="banner">
+                        <h1 class="d-flex justify-content-center mt-3 mb-5">Canet</h1>
+                        <p align="justify">El apartamento se encuentra en Canet de Mar, municipio abierto al mar i rodeado a la vez de montañas, un bello contraste de matices en azules y verdes, donde disfrutar de unas playas limpias y tranquilas y de un entorno natural ideal para hacer rutas por la montaña a pie o en bicicleta. Además entre 3 y 30 Km podemos encontrar 30 campos de Golf, incluidos dos de la PGA.
+                            <br><br>A parte de destacar el excelente clima, la extensa zona de playa, de más de dos kilómetros y medio, y de los bosques que rodean al municipio, Canet de Mar es la población donde, en menos espacio hay el mayor patrimonio modernista.
+                            
+                            Canet es también conocido por su oferta gastronómica variada y de calidad, con más de 30 restaurantes especializados en cocina mediterránea y casera. Los productos de la huerta, de la tierra y del mar están muy presentes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="canet-apartment" class="apartment">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 info-apartment">
+                        <h1 class="d-flex justify-content-center title">Apartamento Canet</h1>
+                        <p align="justify" class="d-flex justify-content-center text"> Luminoso apartamento de vacaciones con decoración marinera cuidada hasta el último detalle. Cuenta con 3 dormitorios y una bonita terraza desde la que podrá disfrutar de unas preciosas vistas al mar. Este apartamento se encuentra en Canet de Mar, una población muy bien comunicada con Barcelona y con otros pueblos de la costa en los que disfrutar de su excelente gastronomía y su oferta de actividades acuáticas. Se encuentra a 50m. de la playa. Alojamiento ideal para parejas y familias (con hijos)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="img/Canet/Canet_general_1.jpg" alt="Apartamento">
+                    </div>
+                    <div class="col-lg-3 col-6 d-flex justify-content-center">
+                        <ul class="services serv1">
+                            <li><span><i class="icon fas fa-home"></i> 3 Habitaciones</span></li>
+                            <li><span><i class="icon fas fa-bed"></i> 4 Camas</span></li>
+                            <li><span><i class="icon fas fa-user-friends"></i> 6 Huéspedes</span></li>
+                            <li><span><i class="icon fas fa-shower"></i> 1 Baño</span></li>
+                            <li><span><i class="icon fas fa-utensils"></i> Utensilios de cocina</span></li>
+                            <li><span><i class="icon fas fa-thermometer-empty"></i> Aire Acondicionado</span></li>
+                            <li><span><i class="icon fas fa-toilet-paper"></i> Elementos básicos</span></li>
+                            <li><span><i class="icon fas fa-tint"></i> Agua caliente</span></li>
+                            <li><span><i class="icon fas fa-thermometer-full"></i> Calefacción</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-6 d-flex justify-content-center">
+                        <ul class="services serv2">
+                            <li><span><i class="icon fas fa-tv"></i> TV</span></li>
+                            <li><span><i class="icon fas fa-wifi"></i> Wi-Fi</span></li>
+                            <li><span><i class="icon fas fa-parking"></i> Parking</span></li>
+                            <li><span><i class="icon fas fa-tshirt"></i> Lavadora</span></li>
+                            <li><span><i class="icon far fa-snowflake"></i> Frigorífico</span></li>
+                            <li><span><i class="icon fas fa-mitten"></i> Horno y microondas</span></li>
+                            <li><span><i class="icon fas fa-coffee"></i> Cafetera</span></li>
+                            <li><span><i class="icon fas fa-arrows-alt-v"></i> Ascensor</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 title">
+                        <h3 id="more" class="d-flex justify-content-center">Más imagenes</h3>
+                    </div>
+                </div>
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div id="filter" class="col-md-12 d-flex justify-content-center mb-5">
+
+                        
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="5">General</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Habitaciones</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Cocina</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="3">Sala de estar y Terraza</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="4">Baño</button>
+                        <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">Ver Todas</button>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="gallery" id="gallery">
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_1.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_2.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_3.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_4.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_5.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_6.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_7.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_8.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_9.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_10.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_11.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_12.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_13.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_14.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                   
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 5 1">
+                        <img class="img-fluid" src="img/Canet/Canet_habitación_16.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Canet/Canet_cocina_1.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Canet/Canet_cocina_2.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 2">
+                        <img class="img-fluid" src="img/Canet/Canet_cocina_4.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3 5">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_1.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_2.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3 5">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_3.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_4.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_5.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_6.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3 5">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_7.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_8.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_9.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_livingroom_10.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3 5">
+                        <img class="img-fluid" src="img/Canet/Canet_Terraza_1.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_Terraza_2.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_Terraza_3.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_Terraza_4.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3 5">
+                        <img class="img-fluid" src="img/Canet/Canet_Terraza_5.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 3">
+                        <img class="img-fluid" src="img/Canet/Canet_Terraza_6.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 4">
+                        <img class="img-fluid" src="img/Canet/Canet_lavabo_1.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 4">
+                        <img class="img-fluid" src="img/Canet/Canet_lavabo_2.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 4">
+                        <img class="img-fluid" src="img/Canet/Canet_lavabo_3.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="mb-3 pics animation all 4">
+                        <img class="img-fluid" src="img/Canet/Canet_lavabo_4.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    
+
+                  
+
+                </div>
+                <!-- Grid row -->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-center title">
+                            <h3>Más información</h3>
+                        </div>
+                        <!-- <div class="d-flex justify-content-center"> -->
+                            <p class="text">
+                                <p class="boldtext">ASPECTOS DESTACABLES</p>
+                                
+                                <p>- Llegada: 16:00 a 20:00</p>
+                                <p>- Salida: 10:00</p>
+                                <p>- Llegada autónomaon caja de seguridad para llaves</p>
+                                   <br>
+                                <p class="boldtext">NORMAS GENERALES</p>
+                                <p>- No se admiten mascotas</p>
+                                <p>- No se admiten fiestas o eventos</p>
+                                <p>- El apartamento tiene una terraza fantástica, ideal para fumadores. Pido que por favor no fumen dentro del apartamento por respeto a los futuros huéspedes no fumadores.</p>
+                                <p>- No grupos de jóvenes.</p>
+                                <p>- Terraza: Para respetar el descanso de los vecinos, les pedimos que tengan las conversaciones con volumen moderado durante el horario de 22h a 8h.</p>
+                                <br>
+                                <p class="boldtext">OTRAS COSAS A TENER EN CUENTA</p>
+                                <p>- Costos obligatorios pagados en el sitio:
+                                     Tasa turística: 0,99€ por persona y día (En efectivo Moneda €)</p>
+                                <p>- Fianza: si se producen daños en el alojamiento, se te podría cobrar hasta un máximo de 200€</p>
+                                <p>- No se puede aparcar en el alojamiento - Normalmente hay parking enfrente del apartamento. Pero de Junio a Septiembre no es posible aparcar enfrente. Solo es para los propietarios de la zona. </p>
+                                <P>- Hay que subir escaleras. Hay 6 escalones antes de llegar al ascensor. </p>
+                                <P>- Puede haber ruido - Con las ventanas abiertas puede haber ruido producido por el tránsito de la calle.</p>
+                                    <br>
+                                    <br>
+                                    <br>
+
+
+
+
+                            <//p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--Contacto-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 contact">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" class="form-control" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center social">
+                    <p>REdes sociales</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 copy">
+                    <p>&copy; Copyrigth Llobet Holidays 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="d-flex justify-content-center social">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic" href="https://www.twitter.com">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://www.instagram.com">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright d-flex justify-content-center py-3">© 2020 Copyright Llobet Holidays</div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>

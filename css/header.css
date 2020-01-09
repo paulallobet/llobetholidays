@@ -1,0 +1,78 @@
+nav .collapse.navbar-collapse {
+    margin-right: 10%;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+
+
+.carousel {
+    background: #007aeb;
+    margin-top: 120px;
+}
+
+.carousel-item .img-fluid {
+    width: 100%;
+}
+
+.carousel-item a {
+    display: block;
+    width: 100%;
+}
+
+.contact {
+    padding: 10%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0 !important;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 300px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: blue !important;
+}
+
+@media all and (max-width: 480px) {
+    nav .navbar-brand img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .carousel {
+        margin-top: 0;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 600px) {
+    .carousel {
+        margin-top: 90px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    
+    .carousel {
+        margin-top: 90px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .idioma {
+        margin-top: -40px;
+        font-size: 15px;
+    }
+}
